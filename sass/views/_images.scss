@@ -1,0 +1,64 @@
+/*Estilo fotos servicio*/
+.navigation__body__main__nav__ul__liststyle__logos {
+    padding-left: .5cm;
+    padding-right: .5cm;
+    height: 2cm;
+    align-items: center;
+}
+.portfolio__navigation__body__main__nav__ul__pics{
+    padding: 0%;
+    display: grid;
+    margin: 0 0;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto ;
+    grid-row-gap: .5cm; 
+    list-style:none;
+    .li{
+    margin-left: auto;
+    margin-right: auto;}
+}
+.portfolio__navigation__body__main__nav__ul__liststyle__pics{
+    display: flex;
+    width: 8cm;
+}
+/*Estilo logos empresas*/
+.navigation__body__main__nav__ul__pics{
+    display: grid;
+    margin: 0cm;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto ;
+    grid-row-gap: .5cm; 
+    list-style:none;
+    .li{
+    margin-left: auto;
+    margin-right: auto;}
+}
+/*Estilo logos clientes*/
+.navigation__body__main__nav__ul__pics__clientes{
+    display: grid;
+    margin: 0cm;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto ;
+    grid-row-gap: .5cm; 
+    list-style:none;
+    .li{
+    margin-left: auto;
+    margin-right: auto;}
+}
+
+.navigation__body__main__nav__ul__liststyle__pics {
+    display: inline-flex;
+    height: 5cm;
+    margin: 0cm;
+    padding: 0;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.navigation__body__main__nav__ul__image__logo{
+    align-items: center;
+    justify-content: center;
+}
+ul li a{
+    color: $textcolors;
+    text-decoration: none;
+}

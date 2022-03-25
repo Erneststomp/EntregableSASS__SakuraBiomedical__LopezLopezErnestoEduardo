@@ -1,0 +1,57 @@
+.grid__father{
+    display: grid;
+    margin: 0 0;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 3fr 1fr;
+    grid-row-gap: .5cm; 
+}
+
+/*Estilos Index-header */
+.grid__son{
+    max-height:7cm; 
+    margin: 0 0;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    grid-template-rows: auto;
+    grid-row-gap: .5cm; 
+}
+
+.body__header__headerdesign__logo {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    width: 350px;
+    filter: drop-shadow(1px 1px 1px $textcolors);
+}
+
+/*Estilos header que no son index */
+
+.navigation__body__menu{
+    display: block;
+    position: inherit;
+}
+.navigation__body__header__logo__width{
+    display: flex;
+    width: 300px;
+    filter: drop-shadow(1px 1px 1px $textcolors);
+}
+
+
+.navigation__body__main__nav__ul{
+    display: grid;
+    margin: 0%;
+    padding: 0%;
+    grid-template-columns: auto auto auto auto auto;
+    grid-template-rows: auto ;
+    grid-row-gap: 1cm;
+    grid-column-gap: .5cm;
+    justify-content: space-evenly;
+}
+
+.navigation__body__main__nav__ul__liststyle {
+    margin-top: auto;
+    margin-bottom: auto;
+    list-style-type:none;  
+     
+}

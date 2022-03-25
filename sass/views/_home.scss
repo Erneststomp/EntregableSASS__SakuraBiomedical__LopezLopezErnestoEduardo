@@ -1,0 +1,80 @@
+.body__main{
+    text-align: justify;  
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: large;
+
+        &__p{
+        text-align: justify;  
+        padding-left: 10%;
+        padding-right: 10%;
+        font-size: .6cm;}
+
+        &__nav__ul{
+        display: grid;
+        padding: 0%;
+        grid-template-columns: auto auto auto auto auto;
+        grid-template-rows: auto;
+        grid-row-gap: 1cm;
+        grid-column-gap: .3cm;
+        justify-content: space-between;
+        text-align: center;
+            &__liststyle{
+            list-style:none;
+            width: 155px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: auto;
+            margin-bottom: auto;
+                &__sectionstyle{
+                text-decoration: none;
+                color: $textcolors;
+                font-weight: bold;
+                font-size: .5cm;    
+                max-width: 80px;
+                }
+                    &:hover {
+                        transform: scale(1.1);
+                        content: "";
+                        background-color: $tertiary;
+                        width: auto;
+                        height: auto;
+                        border-radius: 7px;
+                        transition: transform 0.3s ease;
+                    }  
+                &__image{
+                display: block;
+                margin-top: 0px;
+                width: 150px;
+                height: 150px;
+                
+                } 
+                 
+                &__imagesize{
+                    display: block;
+                    align-items: center;
+                    width: 75px;
+                    height: 75px;margin-right: auto;
+                margin-left: auto;} 
+                
+            }
+       }
+
+}
+
+
+.navigation__body__main__nav__ul__liststyle__sectionstyle{
+    text-decoration: none;
+    list-style-type:none;    
+    color: $textcolors;
+    font-weight: bold;
+    font-size: large;    
+    padding: 0cm;
+}
+
+.navigation__body__header__headerdesign__logo {
+    display: inline;
+}
+
+
+
